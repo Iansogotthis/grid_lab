@@ -1,0 +1,61 @@
+*{
+    box-sizing: border-box;
+}
+/* body{
+    position: fixed;
+    top: 50%;
+    bottom: 50%;
+    transform: translate(-50%, -50%);
+} */
+#container{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 150px 70px 80px 50px;
+    height: 350px;
+    width: 200px;
+    border: 2px solid black
+}
+
+#picName{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    grid-column: span 2;
+}
+
+#ratingTitle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    grid-column: span 2;
+    background-color: lightgray;
+}
+#ratesAdvertise{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    grid-column: span 2;
+
+}
+img{
+    height: 146px;
+    width: auto;
+    border-radius: 100%; 
+    grid-column: span 2;
+
+}
+
+
+
+#call{
+    background-color: aqua;
+  
+}
+#message{
+    background-color: green;
+   
+}
+
+#ratesAdvertise{
+    display:flex
+}
